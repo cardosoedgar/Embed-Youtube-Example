@@ -1,0 +1,81 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.cardosoedgar.minhaappwebview.LyricsFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="@string/title_song"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:background="#919191"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/mini_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/control_button"
+            android:background="@drawable/ic_play_arrow_white_48dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/artist"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#fff"
+            android:text="Artist: Kaskade"
+            android:layout_toRightOf="@id/control_button"
+            android:layout_toEndOf="@id/control_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/artist"
+            android:textSize="18sp"
+            android:layout_marginTop="2dp"
+            android:textColor="#fff"
+            android:text="Song: Steppin\' Out"
+            android:layout_toRightOf="@id/control_button"
+            android:layout_toEndOf="@id/control_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_above="@id/mini_player"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#616161"
+            android:textSize="18sp"
+            android:text="@string/lyrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+</RelativeLayout>

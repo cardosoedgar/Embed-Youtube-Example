@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MinhaAppWebView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_song">Kaskade - Steppin\' Out</string>
+    <string name="lyrics">Here we are\nWe\'ve come so far\nA fine romance\nOf steppin\' out to dance\n\nYour lovely charms\nWhen you\'re in my arms\nThat subtle glance\nWhen steppin\' out to dance\n\nCould you think it over?\nWhen we get older\nI\'ll still want you here with me\nDarling I hope that you agree\nThere\'s something that takes place\nWhenever we embrace\nI\'m hoping that you take this chance\nOf steppin\' out to dance</string>
+</resources>
